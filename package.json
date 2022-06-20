@@ -1,0 +1,21 @@
+{
+  "name": "rpdk",
+  "version": "0.0.03",
+  "description": "React play development kit",
+  "main": "index.js",
+  "bin": {
+    "rpdk": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rpdk": "node index.js"
+  },
+  "author": "react-play",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-play/react-play/issues"
+  },
+  "homepage": "https://reactplay.io/"
+}
