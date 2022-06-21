@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/react-play/react-play/issues"
   },
-  "homepage": "https://reactplay.io/"
+  "homepage": "https://reactplay.io/",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
 }
