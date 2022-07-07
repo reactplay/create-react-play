@@ -52,3 +52,7 @@ export const ALL_ARGS_TYPES = [
     flag: true,
   },
 ];
+
+export const DIRECTORIES = {
+  PLAY: "./src/plays",
+};

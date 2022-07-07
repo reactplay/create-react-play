@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { log, invoke_process } from "../lib/index.js";
+import { invoke_process } from "../lib/index.js";
 import { CONSOLE_COLORS } from "../util/const.js";
 
 // Displays the text in the console

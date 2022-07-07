@@ -1,7 +1,7 @@
 {
-  "name": "@reactplay/crp",
-  "version": "0.0.04",
-  "description": "React play development kit",
+  "name": "create-react-play",
+  "version": "0.0.2",
+  "description": "Boiler plate for creating a play within reactplay system",
   "main": "index.js",
   "bin": {
     "rpdk": "./bin/global.js"
@@ -19,11 +19,14 @@
   },
   "homepage": "https://reactplay.io/",
   "dependencies": {
+    "axios": "^0.27.2",
     "child-process": "^1.0.2",
+    "dotenv": "^16.0.1",
+    "json-graphql-parser": "^0.0.9",
     "prompt": "^1.3.0"
   },
   "repository": "git://github.com/reactplay/react-play-dev-kit.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+  "devDependencies": {
+    "@types/node": "^18.0.0"
   }
 }
