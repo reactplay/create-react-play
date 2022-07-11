@@ -25,6 +25,11 @@ export const toTitleCase = (str) => {
   });
 };
 
+export const toTitleCaseTrimmed = (str) => {
+  const titleCse = toTitleCase(str);
+  return titleCse.replace(/\s/g, "");
+};
+
 export const replaceAll = (str, replaceWhat, replaceTo) => {
   replaceWhat = replaceWhat.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
   var re = new RegExp(replaceWhat, "g");
@@ -33,7 +38,7 @@ export const replaceAll = (str, replaceWhat, replaceTo) => {
 
 export const isValidString = (str) => {
   // This method is made intentionally without using OOTB methods
-  if (str === null && str === undefined) {
+  if (str === null || str === undefined) {
     return false;
   }
   if (str.trim().length === 0) {

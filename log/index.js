@@ -1,6 +1,12 @@
 let node = "CRP";
-const log = (text, ignoreHeader = false) => {
-  console.log(`     ${ignoreHeader ? "" : `${getDate()}: ${node} : `} ${text}`);
+const log = (text, ignoreHeader = false, node = "INFO") => {
+  console.log(
+    `     ${node} : ${ignoreHeader ? "" : `${getDate()}: ${node} : `} ${text}`
+  );
+};
+
+const warning = (text, ignoreHeader = false) => {
+  log(text, ignoreHeader, "WARNING");
 };
 
 const header = (text) => {
@@ -36,6 +42,7 @@ const getDate = () => {
 
 export const Log = {
   log,
+  warning,
   header,
   highlight,
   segementEnd,

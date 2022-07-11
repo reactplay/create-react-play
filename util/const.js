@@ -40,10 +40,10 @@ export const ALL_ARGS_TYPES = [
     flag: false,
   },
   {
-    name: "push",
-    args: ["push", "-p"],
-    description: "Push changes to your fork branch",
-    flag: false,
+    name: "prepare",
+    args: ["prepare", "-p"],
+    description: "Prepare environment for build",
+    flag: true,
   },
   {
     name: "help",
