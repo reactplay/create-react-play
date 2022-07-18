@@ -26,5 +26,8 @@
   "repository": "git://github.com/reactplay/create-react-play.git",
   "devDependencies": {
     "@types/node": "^18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.gihub.com/@reactplay"
   }
 }
