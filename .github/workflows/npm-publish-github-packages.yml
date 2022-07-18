@@ -35,4 +35,4 @@ jobs:
       - run: npm install
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.read_package}}
+          NODE_AUTH_TOKEN: ${{secrets.read_packages}}
