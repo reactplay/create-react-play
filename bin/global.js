@@ -7,6 +7,7 @@ import fs from "fs";
 
 // Displays the text in the console
 let meta = JSON.parse(fs.readFileSync("package.json", "utf-8"));
+console.log("");
 console.log(
   CONSOLE_COLORS.FgGreen,
   "┌─────────────────────────────────────────────────────────────────────────┐"
