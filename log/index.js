@@ -22,9 +22,12 @@ const highlight = (text) => {
 
 const segementStart = (text) => {
   console.log(`----------------- Start: ${text}-----------------------`);
+  console.log("");
 };
 const segementEnd = (text) => {
-  console.log(`----------------- Start: ${text}-----------------------`);
+  console.log("");
+  console.log(`----------------- End: ${text}-----------------------`);
+  console.log("");
 };
 
 const newLine = (text) => {
