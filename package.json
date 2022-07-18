@@ -1,5 +1,5 @@
 {
-  "name": "create-react-play",
+  "name": "@reactplay/create-react-play",
   "version": "0.0.7",
   "description": "Boiler plate for creating a play within reactplay system",
   "main": "index.js",
