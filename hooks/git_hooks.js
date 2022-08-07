@@ -22,6 +22,7 @@ export const git_pull_repo = (repo_name) => {
 
 export const git_fork_branch = (repo_name, branch_name = "main") => {
   const repo_link = get_repo_link(repo_name);
+
   Log.log(`Forking repo ${repo_link}/${branch_name}`);
 };
 
