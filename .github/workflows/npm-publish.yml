@@ -4,18 +4,16 @@
 name: NPM Package Dev Build
 
 on: push
-
 jobs:
-  publish:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm install
-      - run: npm test
-      - tag: beta
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: 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
+          registry-url: https://registry.npmjs.org/
+      - run: yarn install
+      - run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: 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
