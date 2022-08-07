@@ -4,6 +4,8 @@
 
 A package to generate boilerplate files for creating a play withing your local system. Another idea of this package to create a backbone structure for running all sort of maintenance and house keeping task.
 
+[![Node.js Package](https://github.com/reactplay/create-react-play/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/reactplay/create-react-play/actions/workflows/npm-publish.yml)
+
 ## Command Line Options
 Here are few options
 - -h/help: Show all available arguments and flags
