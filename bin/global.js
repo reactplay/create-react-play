@@ -19,7 +19,7 @@ console.log(
   " |                               Welcome to                                |"
 );
 console.log(
-  ` |                      Create Rect Play (v ${meta.version})                         |`
+  ` |                      Create React Play (v ${meta.version})                         |`
 );
 console.log(
   " |                                                                         |"
