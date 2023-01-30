@@ -40,6 +40,14 @@ Here are few options
    ```
    This will create necessary resources and link them together.
    </b>
+
+
+
+   **Note:** If the play folder `<reactplay_directory>/plays/<your_play_name>` remain empty after running above command that means you might be in some older version of the package. Use `@latest` in that case
+      ```bash
+      npx create-react-play@latest -c <the_unique_id>
+      ```
+   
 10. Now you will find your play under
     ```
     <reactplay_directory>/plays/<your_play_name>
@@ -49,5 +57,5 @@ Here are few options
 
 ### Example: Prepare environemnt
 ```bash
-   npx create-react-play -p
+   npx create-react-play@latest -p
 ```
