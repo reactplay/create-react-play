@@ -1,6 +1,6 @@
 {
   "name": "create-react-play",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Boiler plate for creating a play within reactplay system",
   "main": "index.js",
   "bin": {
