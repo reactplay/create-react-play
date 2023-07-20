@@ -1,6 +1,6 @@
 {
   "name": "create-react-play",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Boiler plate for creating a play within reactplay system",
   "main": "index.js",
   "bin": {
@@ -19,12 +19,14 @@
   },
   "homepage": "https://reactplay.io/",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.4.0",
     "dotenv": "^16.0.1",
-    "json-graphql-parser": "^0.0.9"
+	"file-type": "^18.5.0",
+    "jimp": "^0.22.8",
+    "json-graphql-parser": "^0.1.9",
+    "webp-converter": "^2.3.3"
+
   },
   "repository": "git://github.com/reactplay/create-react-play.git",
-  "devDependencies": {
-    "@types/node": "^18.0.0"
-  }
+  "yalcSig": "4f1657e2f808042ff87ec98e4b2ee80c"
 }
