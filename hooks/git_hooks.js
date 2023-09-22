@@ -1,8 +1,8 @@
-import { Log } from "../log/index.js";
+import { Log } from '../log/index.js';
 
 const REPO_MAP = {
-  play: "react_play_store",
-  application: "react_play",
+  play: 'react_play_store',
+  application: 'react_play'
 };
 
 export const git_test_connection = (repo_name) => {
@@ -20,7 +20,7 @@ export const git_pull_repo = (repo_name) => {
   Log.log(`Pulling repo ${repo_link}`);
 };
 
-export const git_fork_branch = (repo_name, branch_name = "main") => {
+export const git_fork_branch = (repo_name, branch_name = 'main') => {
   const repo_link = get_repo_link(repo_name);
   Log.log(`Forking repo ${repo_link}/${branch_name}`);
 };

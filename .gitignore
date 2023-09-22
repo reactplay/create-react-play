@@ -107,3 +107,6 @@ dist
 # Packagelock files
 yarn.lock
 package-lock.json
+
+#misc
+yalc.sig
