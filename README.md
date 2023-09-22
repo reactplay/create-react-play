@@ -14,6 +14,8 @@ Here are few options
 - -c/create: Creates a play boilerplate within local directory structure
 - -u/update: Update an exsiting play
 - -p/prepare: Prepre an environment for build/run
+- -plays: set the path folder for your plays ( default is src/plays)
+- -i: Create default images for missing plays, create thumbnail and adapt image extension. (usage -i="a value")
 
 ## How it works
 
@@ -26,12 +28,16 @@ Here are few options
    yarn
    #or
    npm install
+   #or
+   pnpm install
    ```
 4. run reactplay application using
    ```bash
    yarn start
    #or
    npm start
+   #or
+   pnpm start
    ```
 5. Hit "Create" button on web portal
 6. Provide necessary information
@@ -42,8 +48,15 @@ Here are few options
    ```bash
    npx create-react-play -c <the_unique_id>
    ```
-
    This will create necessary resources and link them together.
+   </b>
+   <br />
+   <b>
+      or
+   ```bash
+   npx create-react-play -c <the_unique_id> -plays="plays"
+   ```
+   if you want to create it in a specific folder ( here in the "./plays" folder at the application root)
    </b>
 
    **Note:** If the play folder `<reactplay_directory>/plays/<your_play_name>` remain empty after running above command that means you might be in some older version of the package. Use `@latest` in that case
