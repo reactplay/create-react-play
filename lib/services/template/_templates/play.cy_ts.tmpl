@@ -1,0 +1,27 @@
+/// <reference types="cypress" />
+
+
+describe('Test %PLAY_TITLE_NAME_SANITIZED% play', () => {
+  beforeEach(() => {
+    cy.visit('/plays/%PLAY_URL%/');
+  });
+
+  it('Header component should render properly', () => {
+	 cy.header();
+  });
+
+  it('Play page should contains author name', () => {
+    cy.contains('%PLAY_GITHUB%');
+  });
+
+
+	it('We should be able to see the details of the play', () => {
+		cy.get('.play-details').should('be.visible');
+    });
+
+
+	it('We should be able to see the actions', () => {
+		cy.get('.header-actions').should('be.visible');
+    });
+
+});
